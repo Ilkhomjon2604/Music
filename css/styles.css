@@ -77,8 +77,7 @@ a{
   align-items: center;
 
 }
-.nav-list-item {
-}
+
 .nav-list-item-link {
   color: #c7c7c7;
 }
@@ -104,5 +103,17 @@ a{
 .play img {
   width: 200px;
   cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer .title {
+  font-size: 4rem;
 }
 
