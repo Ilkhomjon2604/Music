@@ -105,6 +105,26 @@ a{
   cursor: pointer;
 }
 
+.content-title{
+  text-align: center;
+  font-size: 4rem;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+.musician-img{
+  margin-right: 10px ;
+  width: 400px;
+  height: 400px;
+  object-fit:fill ;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 .footer {
   width: 100%;
   background-color: aqua;
