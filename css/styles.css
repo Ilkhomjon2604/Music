@@ -105,6 +105,31 @@ a{
   cursor: pointer;
 }
 
+
+
+.tour-list {
+  margin-bottom: 50px;
+}
+.tour-item {
+  display: flex;
+  justify-content: space-between;
+  padding:20px;
+}
+.tour-item:not(:last-child){
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+}
+.date {
+  font-weight: 900;
+}
+
+.btn-buy {
+  cursor: pointer;
+  padding: 10px;
+  background-color: aqua;
+}
+
+
 .content-title{
   text-align: center;
   font-size: 4rem;
